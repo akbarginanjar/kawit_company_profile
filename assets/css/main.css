@@ -841,7 +841,7 @@ section,
 
 .hero .carousel-item:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 50%);
+  background: color-mix(in srgb, var(--background-color), transparent 90%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -849,7 +849,7 @@ section,
 
 .hero .carousel-item::before {
   content: "";
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+  background-color: color-mix(in srgb, var(--background-color), transparent 90%);
   position: absolute;
   inset: 0;
 }
@@ -956,6 +956,9 @@ section,
 
 .hero .carousel-indicators li {
   cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
 }
 
 @keyframes fadeInUp {
