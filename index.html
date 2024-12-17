@@ -1,358 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kawit Fashion</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Kawit Fashion</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="images/logo-kawit.png" rel="icon" />
+    <link href="images/logo-kawit.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="images/logo-kawit.png" rel="icon">
-  <link href="images/logo-kawit.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Multi
   * Template URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
   * Updated: Aug 07 2024 with Bootstrap v5.3.3
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-
-      <a href="/" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="images/logo-kawit.png" alt="">
-        <!-- <h1 class="sitename">Multi</h1> -->
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#beranda" class="active">BERANDA</a></li>
-          <li><a href="#produk">PRODUK</a></li>
-          <li><a href="#tentang-kami">TETANG KAMI</a></li>
-          <li><a href="#kontak">KONTAK</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="beranda" class="hero section dark-background">
-
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-
-        <div class="carousel-item active">
-          <img src="images/header-1.png" alt="">
-          <div class="carousel-container">
-            <h2 style="font-family: 'Playfair Display', serif;">KAWIT FASHION<br></h2>
-            <h6 style="font-size: 20px; font-weight: 300; letter-spacing: 1px;" class="text-center">Kawit hadir untuk memenuhi kebutuhan pakaian muslim untuk anak dan juga wanita. Bukan hanya pakaian biasa kawit memberikan kualitas dan desain terbaik dengan harga yang terjangkau untuk semua kalangan.</h6>
-            <a href="#produk" class="btn-get-started">LIHAT SELENGKAPNYA</a>
-            <i class="bi bi-mouse text-white" style="font-size: 30px;"></i>
-            <h6 style="font-size: 13px;">Gulir Bawah</h6>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <div class="carousel-item ">
-          <img src="images/header-2.png" alt="">
-          <div class="carousel-container">
-            <h2 style="font-family: 'Playfair Display', serif;">KAWIT FASHION<br></h2>
-            <h6 style="font-size: 20px; font-weight: 300; letter-spacing: 1px;" class="text-center">Kawit hadir untuk memenuhi kebutuhan pakaian muslim untuk anak dan juga wanita. Bukan hanya pakaian biasa kawit memberikan kualitas dan desain terbaik dengan harga yang terjangkau untuk semua kalangan.</h6>
-            <a href="#produk" class="btn-get-started">LIHAT SELENGKAPNYA</a>
-            <i class="bi bi-mouse" style="font-size: 30px;"></i>
-            <h6 style="font-size: 13px;">Gulir Bawah</h6>
-          </div>
-        </div><!-- End Carousel Item -->
-
-        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="/" class="logo d-flex align-items-center me-auto">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="images/logo-kawit.png" alt="" />
+          <!-- <h1 class="sitename">Multi</h1> -->
         </a>
 
-        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#beranda" class="active">BERANDA</a></li>
+            <li><a href="#produk">PRODUK</a></li>
+            <li><a href="#tentang-kami">TETANG KAMI</a></li>
+            <li><a href="#kontak">KONTAK</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-        <ol class="carousel-indicators"></ol>
-
+        <!-- <a class="btn-getstarted" href="#about">Get Started</a> -->
       </div>
+    </header>
 
-    </section><!-- /Hero Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section mt-5">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-truck"></i>
-            <div class="stats-item" >
-              <div class="text--primary"> Bebas Biaya Ongkir </div>
-              <p>Gratis ongkir ke seluruh Indonesia</p>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="beranda" class="hero section dark-background">
+        <div
+          id="hero-carousel"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-item active">
+            <img src="images/header-1.png" alt="" />
+            <div class="carousel-container">
+              <h2 style="font-family: 'Playfair Display', serif">
+                KAWIT FASHION<br />
+              </h2>
+              <h6
+                style="font-size: 20px; font-weight: 300; letter-spacing: 1px"
+                class="text-center"
+              >
+                Kawit hadir untuk memenuhi kebutuhan pakaian muslim untuk anak
+                dan juga wanita. Bukan hanya pakaian biasa kawit memberikan
+                kualitas dan desain terbaik dengan harga yang terjangkau untuk
+                semua kalangan.
+              </h6>
+              <a href="#produk" class="btn-get-started">LIHAT SELENGKAPNYA</a>
+              <i class="bi bi-mouse text-white" style="font-size: 30px"></i>
+              <h6 style="font-size: 13px">Gulir Bawah</h6>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
+          <!-- End Carousel Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-tags"></i>
-            <div class="stats-item" >
-              <div class="text--primary"> Termurah</div>
-              <p>Lebih murah belanja di Kawit</p>
+          <div class="carousel-item">
+            <img src="images/header-2.png" alt="" />
+            <div class="carousel-container">
+              <h2 style="font-family: 'Playfair Display', serif">
+                KAWIT FASHION<br />
+              </h2>
+              <h6
+                style="font-size: 20px; font-weight: 300; letter-spacing: 1px"
+                class="text-center"
+              >
+                Kawit hadir untuk memenuhi kebutuhan pakaian muslim untuk anak
+                dan juga wanita. Bukan hanya pakaian biasa kawit memberikan
+                kualitas dan desain terbaik dengan harga yang terjangkau untuk
+                semua kalangan.
+              </h6>
+              <a href="#produk" class="btn-get-started">LIHAT SELENGKAPNYA</a>
+              <i class="bi bi-mouse" style="font-size: 30px"></i>
+              <h6 style="font-size: 13px">Gulir Bawah</h6>
             </div>
-          </div><!-- End Stats Item -->
+          </div>
+          <!-- End Carousel Item -->
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-cash-stack"></i>
-            <div class="stats-item" >
-              <div class="text--primary"> Gratis Refund</div>
-              <p>Gratis pengembalian produk</p>
-            </div>
-          </div><!-- End Stats Item -->
+          <a
+            class="carousel-control-prev"
+            href="#hero-carousel"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
+          </a>
 
-          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="bi bi-star"></i>
-            <div class="stats-item" >
-              <div class="text--primary">Jaminan Kualitas</div>
-              <p>Pilihan bahan terbaik dan berkualitas</p>
-            </div>
-          </div><!-- End Stats Item -->
+          <a
+            class="carousel-control-next"
+            href="#hero-carousel"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
+          </a>
 
+          <ol class="carousel-indicators"></ol>
         </div>
+      </section>
+      <!-- /Hero Section -->
 
-      </div>
+      <!-- Stats Section -->
+      <section id="stats" class="stats section mt-5">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-truck"></i>
+              <div class="stats-item">
+                <div class="text--primary">Bebas Biaya Ongkir</div>
+                <p>Gratis ongkir ke seluruh Indonesia</p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
 
-    </section><!-- /Stats Section -->
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-tags"></i>
+              <div class="stats-item">
+                <div class="text--primary">Termurah</div>
+                <p>Lebih murah belanja di Kawit</p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
 
-    <section id="produk">
-      <div class="container">
-        <center>
-          <h1 style="font-family: 'Playfair Display', serif;"><b>INSPIRASI PRODUK</b></h1>
-          <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px;">Kami berikan produk terbaik.</h6>
-        </center>
-      <div class="row gy-4 mt-5">
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-cash-stack"></i>
+              <div class="stats-item">
+                <div class="text--primary">Gratis Refund</div>
+                <p>Gratis pengembalian produk</p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
 
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/gamis.png" class="img-fluid"
-                alt="">
+            <div
+              class="col-lg-3 col-md-6 d-flex flex-column align-items-center"
+            >
+              <i class="bi bi-star"></i>
+              <div class="stats-item">
+                <div class="text--primary">Jaminan Kualitas</div>
+                <p>Pilihan bahan terbaik dan berkualitas</p>
+              </div>
+            </div>
+            <!-- End Stats Item -->
+          </div>
         </div>
-        <div class="col-lg-6">
-            <div class="" data-aos="fade-up" data-aos-delay="200">
+      </section>
+      <!-- /Stats Section -->
+
+      <section id="produk">
+        <div class="container">
+          <center>
+            <h1 style="font-family: 'Playfair Display', serif">
+              <b>INSPIRASI PRODUK</b>
+            </h1>
+            <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px">
+              Kami berikan produk terbaik.
+            </h6>
+          </center>
+          <div class="row gy-4 mt-5">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img src="images/gamis.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6">
+              <div class="" data-aos="fade-up" data-aos-delay="200">
                 <div>
-                  <br>
-                    <h3 class="text-dark" style="font-family: 'Playfair Display', serif;"><b>GAMIS SYAR’I</b></h3>
-                    <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px;">Gamis Syar’i dirancang agar sesuai dengan aturan berpakaian dalam Islam, khususnya dalam menutupi aurat dengan baik dan sempurna. pas di buat untuk sehari-hari yang nyaman dan praktis. Bahan yang digunakan ringan dan menyerap keringat seperti katun atau linen. </h6>
-                    <br>
-                    <h5 class="text-dark" style="font-family: 'Playfair Display', serif;">SHOP VIA E-COMMERCE</h5>
-                    <div class="row mt-3">
-                      <div class="col">
-                        <a href="https://shopee.co.id/shop/1389123813" target="_blank">
-                          <div class="card mb-2">
-                            <div class="card-body">
-                              <center>
-                                <img src="images/shopee.png" style="width: 50px;" alt="">
-                              </center>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a href="">
-                          <div class="card mb-3">
-                            <div class="card-body">
-                              <center>
-                                <img src="images/tokopedia.png" style="width: 50px;" alt="">
-                              </center>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a href="https://www.tiktok.com/@kawit.official" target="_blank">
-                          <div class="card mb-3">
-                            <div class="card-body">
-                              <center>
-                                <img src="images/tiktokshop.png" style="width: 50px;" alt="">
-                              </center>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a href="">
-                          <div class="card mb-3">
-                            <div class="card-body">
-                              <center>
-                                <img src="images/lazada.png" style="width: 50px;" alt="">
-                              </center>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a href="">
-                          <div class="card mb-3">
-                            <div class="card-body">
-                              <center>
-                                <img src="images/zalora.png" style="width: 50px;" alt="">
-                              </center>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      <div class="col">
-                        <a href="">
-                          <div class="card mb-3">
-                            <div class="card-body">
-                              <center>
-                                <img src="images/lili.png" style="width: 50px; margin-top: 9px; margin-bottom: 9px;" alt="">
-                              </center>
-                            </div>
-                          </div>
-                        </a>
-                      </div>
-                      
-                    </div>
-                </div>
-            </div><!-- End Features Item-->
-
-        </div>
-    </div>
-    <div class="row gy-4">
-        <div class="col-lg-6 order-1 order-lg-2">
-            <img src="images/abaya.png" class="img-fluid"
-                alt="">
-        </div>
-        <div class="col-lg-6 order-2 order-lg-1 content">
-          <div class="" data-aos="fade-up" data-aos-delay="200">
-            <div>
-              <br><br>
-                <h3 class="text-dark" style="font-family: 'Playfair Display', serif;"><b>ABAYA</b></h3>
-                <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px;">Abaya formal dirancang untuk dipakai pada acara-acara penting seperti pernikahan, acara keagamaan, atau pertemuan resmi. Kami menyediakan berbagai varian dan bisa digunakan sehari-hari dan dirancang agar nyaman dipakai dalam berbagai aktivitas.</h6>
-                <br>
-                <h5 class="text-dark" style="font-family: 'Playfair Display', serif;">SHOP VIA E-COMMERCE</h5>
-                <div class="row mt-3">
-                  <div class="col">
-                    <a href="https://shopee.co.id/shop/1389123813" target="_blank">
-                      <div class="card mb-2">
-                        <div class="card-body">
-                          <center>
-                            <img src="images/shopee.png" style="width: 50px;" alt="">
-                          </center>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <a href="">
-                      <div class="card mb-3">
-                        <div class="card-body">
-                          <center>
-                            <img src="images/tokopedia.png" style="width: 50px;" alt="">
-                          </center>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <a href="https://www.tiktok.com/@kawit.official" target="_blank">
-                      <div class="card mb-3">
-                        <div class="card-body">
-                          <center>
-                            <img src="images/tiktokshop.png" style="width: 50px;" alt="">
-                          </center>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <a href="">
-                      <div class="card mb-3">
-                        <div class="card-body">
-                          <center>
-                            <img src="images/lazada.png" style="width: 50px;" alt="">
-                          </center>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <a href="">
-                      <div class="card mb-3">
-                        <div class="card-body">
-                          <center>
-                            <img src="images/zalora.png" style="width: 50px;" alt="">
-                          </center>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col">
-                    <a href="">
-                      <div class="card mb-3">
-                        <div class="card-body">
-                          <center>
-                            <img src="images/lili.png" style="width: 50px; margin-top: 9px; margin-bottom: 9px;" alt="">
-                          </center>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  
-                </div>
-            </div>
-        </div><!-- End Features Item-->
-        </div>
-    </div>
-
-    <div class="row gy-4">
-
-      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <img src="images/oneset.png" class="img-fluid"
-              alt="">
-      </div>
-      <div class="col-lg-6">
-          <div class="" data-aos="fade-up" data-aos-delay="200">
-              <div>
-                <br><br>
-                  <h3 class="text-dark" style="font-family: 'Playfair Display', serif;"><b>ONE SET</b></h3>
-                  <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px;">One Set dalam dunia fashion muslimah merujuk pada pakaian yang terdiri dari dua atau lebih potongan yang dijual sebagai satu set lengkap. Produk ini dirancang agar terlihat serasi dan mempermudah pengguna dalam berpakaian tanpa perlu mencocokkan atasan dan bawahan secara terpisah.</h6>
-                  <br>
-                  <h5 class="text-dark" style="font-family: 'Playfair Display', serif;">SHOP VIA E-COMMERCE</h5>
+                  <br />
+                  <h3
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    <b>GAMIS SYAR’I</b>
+                  </h3>
+                  <h6
+                    style="
+                      font-size: 18px;
+                      font-weight: 300;
+                      letter-spacing: 1px;
+                    "
+                  >
+                    Gamis Syar’i dirancang agar sesuai dengan aturan berpakaian
+                    dalam Islam, khususnya dalam menutupi aurat dengan baik dan
+                    sempurna. pas di buat untuk sehari-hari yang nyaman dan
+                    praktis. Bahan yang digunakan ringan dan menyerap keringat
+                    seperti katun atau linen.
+                  </h6>
+                  <br />
+                  <h5
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    SHOP VIA E-COMMERCE
+                  </h5>
                   <div class="row mt-3">
                     <div class="col">
-                      <a href="https://shopee.co.id/shop/1389123813" target="_blank">
+                      <a
+                        href="https://shopee.co.id/shop/1389123813"
+                        target="_blank"
+                      >
                         <div class="card mb-2">
                           <div class="card-body">
                             <center>
-                              <img src="images/shopee.png" style="width: 50px;" alt="">
+                              <img
+                                src="images/shopee.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tokopedia.com/kawitofficial"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tokopedia.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tiktok.com/@kawit.official"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tiktokshop.png"
+                                style="width: 50px"
+                                alt=""
+                              />
                             </center>
                           </div>
                         </div>
@@ -363,18 +314,26 @@
                         <div class="card mb-3">
                           <div class="card-body">
                             <center>
-                              <img src="images/tokopedia.png" style="width: 50px;" alt="">
+                              <img
+                                src="images/lazada.png"
+                                style="width: 50px"
+                                alt=""
+                              />
                             </center>
                           </div>
                         </div>
                       </a>
                     </div>
-                    <div class="col">
-                      <a href="https://www.tiktok.com/@kawit.official" target="_blank">
+                    <!-- <div class="col">
+                      <a href="">
                         <div class="card mb-3">
                           <div class="card-body">
                             <center>
-                              <img src="images/tiktokshop.png" style="width: 50px;" alt="">
+                              <img
+                                src="images/zalora.png"
+                                style="width: 50px"
+                                alt=""
+                              />
                             </center>
                           </div>
                         </div>
@@ -385,439 +344,975 @@
                         <div class="card mb-3">
                           <div class="card-body">
                             <center>
-                              <img src="images/lazada.png" style="width: 50px;" alt="">
+                              <img
+                                src="images/lili.png"
+                                style="
+                                  width: 50px;
+                                  margin-top: 9px;
+                                  margin-bottom: 9px;
+                                "
+                                alt=""
+                              />
                             </center>
                           </div>
                         </div>
                       </a>
-                    </div>
-                    <div class="col">
-                      <a href="">
-                        <div class="card mb-3">
-                          <div class="card-body">
-                            <center>
-                              <img src="images/zalora.png" style="width: 50px;" alt="">
-                            </center>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col">
-                      <a href="">
-                        <div class="card mb-3">
-                          <div class="card-body">
-                            <center>
-                              <img src="images/lili.png" style="width: 50px; margin-top: 9px; margin-bottom: 9px;" alt="">
-                            </center>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    
+                    </div> -->
                   </div>
+                </div>
               </div>
-          </div><!-- End Features Item-->
-
-      </div>
-  </div>
-  <div class="row gy-4">
-      <div class="col-lg-6 order-1 order-lg-2">
-          <img src="images/rajut.png" class="img-fluid"
-              alt="">
-      </div>
-      <div class="col-lg-6 order-2 order-lg-1 content">
-        <div class="" data-aos="fade-up" data-aos-delay="200">
-          <div>
-            <br><br>
-              <h3 class="text-dark" style="font-family: 'Playfair Display', serif;"><b>RAJUT</b></h3>
-              <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px;">Produk rajut adalah pakaian yang terbuat dari benang yang dianyam menggunakan teknik khusus untuk menciptakan tekstur yang fleksibel dan lembut. Dalam fashion muslimah, pakaian berbahan rajut semakin populer karena sifatnya yang nyaman dan stylish.</h6>
-              <br>
-              <h5 class="text-dark" style="font-family: 'Playfair Display', serif;">SHOP VIA E-COMMERCE</h5>
-              <div class="row mt-3">
-                <div class="col">
-                  <a href="https://shopee.co.id/shop/1389123813" target="_blank">
-                    <div class="card mb-2">
-                      <div class="card-body">
-                        <center>
-                          <img src="images/shopee.png" style="width: 50px;" alt="">
-                        </center>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="">
-                    <div class="card mb-3">
-                      <div class="card-body">
-                        <center>
-                          <img src="images/tokopedia.png" style="width: 50px;" alt="">
-                        </center>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="https://www.tiktok.com/@kawit.official" target="_blank">
-                    <div class="card mb-3">
-                      <div class="card-body">
-                        <center>
-                          <img src="images/tiktokshop.png" style="width: 50px;" alt="">
-                        </center>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="">
-                    <div class="card mb-3">
-                      <div class="card-body">
-                        <center>
-                          <img src="images/lazada.png" style="width: 50px;" alt="">
-                        </center>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="">
-                    <div class="card mb-3">
-                      <div class="card-body">
-                        <center>
-                          <img src="images/zalora.png" style="width: 50px;" alt="">
-                        </center>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <a href="">
-                    <div class="card mb-3">
-                      <div class="card-body">
-                        <center>
-                          <img src="images/lili.png" style="width: 50px; margin-top: 9px; margin-bottom: 9px;" alt="">
-                        </center>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                
-              </div>
+              <!-- End Features Item-->
+            </div>
           </div>
-      </div><!-- End Features Item-->
-      </div>
-  </div>
-      </div>
-    </section>
+          <div class="row gy-4">
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img src="images/abaya.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6 order-2 order-lg-1 content">
+              <div class="" data-aos="fade-up" data-aos-delay="200">
+                <div>
+                  <br /><br />
+                  <h3
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    <b>ABAYA</b>
+                  </h3>
+                  <h6
+                    style="
+                      font-size: 18px;
+                      font-weight: 300;
+                      letter-spacing: 1px;
+                    "
+                  >
+                    Abaya formal dirancang untuk dipakai pada acara-acara
+                    penting seperti pernikahan, acara keagamaan, atau pertemuan
+                    resmi. Kami menyediakan berbagai varian dan bisa digunakan
+                    sehari-hari dan dirancang agar nyaman dipakai dalam berbagai
+                    aktivitas.
+                  </h6>
+                  <br />
+                  <h5
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    SHOP VIA E-COMMERCE
+                  </h5>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <a
+                        href="https://shopee.co.id/shop/1389123813"
+                        target="_blank"
+                      >
+                        <div class="card mb-2">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/shopee.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tokopedia.com/kawitofficial"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tokopedia.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tiktok.com/@kawit.official"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tiktokshop.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/lazada.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/zalora.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/lili.png"
+                                style="
+                                  width: 50px;
+                                  margin-top: 9px;
+                                  margin-bottom: 9px;
+                                "
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Features Item-->
+            </div>
+          </div>
 
-    <section>
-      <style>
-        .promo {
+          <div class="row gy-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img src="images/oneset.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6">
+              <div class="" data-aos="fade-up" data-aos-delay="200">
+                <div>
+                  <br /><br />
+                  <h3
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    <b>ONE SET</b>
+                  </h3>
+                  <h6
+                    style="
+                      font-size: 18px;
+                      font-weight: 300;
+                      letter-spacing: 1px;
+                    "
+                  >
+                    One Set dalam dunia fashion muslimah merujuk pada pakaian
+                    yang terdiri dari dua atau lebih potongan yang dijual
+                    sebagai satu set lengkap. Produk ini dirancang agar terlihat
+                    serasi dan mempermudah pengguna dalam berpakaian tanpa perlu
+                    mencocokkan atasan dan bawahan secara terpisah.
+                  </h6>
+                  <br />
+                  <h5
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    SHOP VIA E-COMMERCE
+                  </h5>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <a
+                        href="https://shopee.co.id/shop/1389123813"
+                        target="_blank"
+                      >
+                        <div class="card mb-2">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/shopee.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tokopedia.com/kawitofficial"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tokopedia.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tiktok.com/@kawit.official"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tiktokshop.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/lazada.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/zalora.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/lili.png"
+                                style="
+                                  width: 50px;
+                                  margin-top: 9px;
+                                  margin-bottom: 9px;
+                                "
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Features Item-->
+            </div>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img src="images/rajut.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-6 order-2 order-lg-1 content">
+              <div class="" data-aos="fade-up" data-aos-delay="200">
+                <div>
+                  <br /><br />
+                  <h3
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    <b>HIJAB</b>
+                  </h3>
+                  <h6
+                    style="
+                      font-size: 18px;
+                      font-weight: 300;
+                      letter-spacing: 1px;
+                    "
+                  >
+                    Produk rajut adalah pakaian yang terbuat dari benang yang
+                    dianyam menggunakan teknik khusus untuk menciptakan tekstur
+                    yang fleksibel dan lembut. Dalam fashion muslimah, pakaian
+                    berbahan rajut semakin populer karena sifatnya yang nyaman
+                    dan stylish.
+                  </h6>
+                  <br />
+                  <h5
+                    class="text-dark"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    SHOP VIA E-COMMERCE
+                  </h5>
+                  <div class="row mt-3">
+                    <div class="col">
+                      <a
+                        href="https://shopee.co.id/shop/1389123813"
+                        target="_blank"
+                      >
+                        <div class="card mb-2">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/shopee.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tokopedia.com/kawitofficial"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tokopedia.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="https://www.tiktok.com/@kawit.official"
+                        target="_blank"
+                      >
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/tiktokshop.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/lazada.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/zalora.png"
+                                style="width: 50px"
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col">
+                      <a href="">
+                        <div class="card mb-3">
+                          <div class="card-body">
+                            <center>
+                              <img
+                                src="images/lili.png"
+                                style="
+                                  width: 50px;
+                                  margin-top: 9px;
+                                  margin-bottom: 9px;
+                                "
+                                alt=""
+                              />
+                            </center>
+                          </div>
+                        </div>
+                      </a>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <!-- End Features Item-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <style>
+          .promo {
             font-family: Arial, sans-serif;
             height: 500px;
-            background: url('images/banner.png') no-repeat center center/cover; /* Replace with actual image */
+            background: url("images/banner.png") no-repeat center center/cover; /* Replace with actual image */
             color: white;
             position: relative; /* Needed for pseudo-element positioning */
-        }
-    
-        .promo::before {
-            content: '';
+          }
+
+          .promo::before {
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.6); /* Black overlay with 60% opacity */
+            background-color: rgba(
+              0,
+              0,
+              0,
+              0.6
+            ); /* Black overlay with 60% opacity */
             z-index: 1; /* Place it behind the content but above the background */
-        }
-    
-        .promo .container {
+          }
+
+          .promo .container {
             position: relative; /* To make content stack above the overlay */
             z-index: 2;
-        }
-    
-        .countdown {
+          }
+
+          .countdown {
             font-size: 2rem;
-        }
-    
-        .countdown h1 {
+          }
+
+          .countdown h1 {
             font-size: 50px;
-        }
-    
-        .countdown span {
+          }
+
+          .countdown span {
             font-size: 18px;
-        }
-    </style>
-    
-    <div class="promo">
-      <div class="container">
-          <br><br><br><br><br><br>
-          <div class="row d-flex justify-content-center gap-4 align-items-center">
+          }
+        </style>
+
+        <div class="promo">
+          <div class="container">
+            <br /><br /><br /><br /><br /><br />
+            <div
+              class="row d-flex justify-content-center gap-4 align-items-center"
+            >
               <div class="col-sm" data-aos="fade-right" data-aos-delay="100">
-                  <h5 class="text-uppercase text-white" style="font-weight: 300;">Promo Sale!</h5>
-                  <h1 class="display-3 fw-bold text-white" style="font-family: 'Playfair Display', serif;">Grand Opening</h1>
-                  <p class=" text-white" style="font-weight: 300; font-size: 19px;">Promosi untuk semua orang. Dapatkan sekarang!</p>
-                  <div class="mt-4">
-                      <div class="row">
-                          <div class="col-2">
-                            <a href="https://shopee.co.id/shop/1389123813" target="_blank">
-                              <img src="images/shopee.png" class="rounded mx-2" style="width: 40px;" alt="Shopee">
-                            </a>
-                          </div>
-                          <div class="col-2">
-                              <img src="images/tokopedia.png" class="rounded mx-2" style="width: 40px;" alt="Tokopedia">
-                          </div>
-                          <div class="col-2">
-                            <a href="https://www.tiktok.com/@kawit.official" target="_blank">
-                              <img src="images/tiktokshop.png" class="rounded mx-2" style="width: 40px;" alt="TikTok">
-                            </a>
-                          </div>
-                          <div class="col-2">
-                              <img src="images/lazada.png" class="rounded mx-2" style="width: 40px;" alt="Lazada">
-                          </div>
-                          <div class="col-2">
-                              <img src="images/zalora.png" class="rounded mx-2" style="width: 40px;" alt="Zalora">
-                          </div>
-                          <div class="col-2">
-                              <img src="images/lili.png" class="rounded mx-2" style="width: 40px;" alt="LiLi">
-                          </div>
-                      </div>
+                <h5 class="text-uppercase text-white" style="font-weight: 300">
+                  Promo Sale!
+                </h5>
+                <h1
+                  class="display-3 fw-bold text-white"
+                  style="font-family: 'Playfair Display', serif"
+                >
+                  Grand Opening
+                </h1>
+                <p class="text-white" style="font-weight: 300; font-size: 19px">
+                  Promosi untuk semua orang. Dapatkan sekarang!
+                </p>
+                <div class="mt-4">
+                  <div class="row">
+                    <div class="col-2">
+                      <a
+                        href="https://shopee.co.id/shop/1389123813"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/shopee.png"
+                          class="rounded mx-2"
+                          style="width: 40px"
+                          alt="Shopee"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-2">
+                      <a
+                        href="https://www.tokopedia.com/kawitofficial"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/tokopedia.png"
+                          class="rounded mx-2"
+                          style="width: 40px"
+                          alt="Tokopedia"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-2">
+                      <a
+                        href="https://www.tiktok.com/@kawit.official"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/tiktokshop.png"
+                          class="rounded mx-2"
+                          style="width: 40px"
+                          alt="TikTok"
+                        />
+                      </a>
+                    </div>
+                    <div class="col-2">
+                      <img
+                        src="images/lazada.png"
+                        class="rounded mx-2"
+                        style="width: 40px"
+                        alt="Lazada"
+                      />
+                    </div>
+                    <!-- <div class="col-2">
+                      <img
+                        src="images/zalora.png"
+                        class="rounded mx-2"
+                        style="width: 40px"
+                        alt="Zalora"
+                      />
+                    </div>
+                    <div class="col-2">
+                      <img
+                        src="images/lili.png"
+                        class="rounded mx-2"
+                        style="width: 40px"
+                        alt="LiLi"
+                      />
+                    </div> -->
                   </div>
+                </div>
               </div>
-              <div class="col-sm countdown d-flex justify-content-center gap-4" data-aos="fade-left" data-aos-delay="100">
-                  <div class="text-center">
-                      <h1 id="days" class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">0</h1>
-                      <span>Hari</span>
-                  </div>
-                  <h1 class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">:</h1>
-                  <div class="text-center">
-                      <h1 id="hours" class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">0</h1>
-                      <span>Jam</span>
-                  </div>
-                  <h1 class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">:</h1>
-                  <div class="text-center">
-                      <h1 id="minutes" class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">0</h1>
-                      <span>Menit</span>
-                  </div>
-                  <h1 class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">:</h1>
-                  <div class="text-center">
-                      <h1 id="seconds" class="fw-bold text-white" style="font-family: 'Playfair Display', serif;">0</h1>
-                      <span>Detik</span>
-                  </div>
+              <div
+                class="col-sm countdown d-flex justify-content-center gap-4"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              >
+                <div class="text-center">
+                  <h1
+                    id="days"
+                    class="fw-bold text-white"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    0
+                  </h1>
+                  <span>Hari</span>
+                </div>
+                <h1
+                  class="fw-bold text-white"
+                  style="font-family: 'Playfair Display', serif"
+                >
+                  :
+                </h1>
+                <div class="text-center">
+                  <h1
+                    id="hours"
+                    class="fw-bold text-white"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    0
+                  </h1>
+                  <span>Jam</span>
+                </div>
+                <h1
+                  class="fw-bold text-white"
+                  style="font-family: 'Playfair Display', serif"
+                >
+                  :
+                </h1>
+                <div class="text-center">
+                  <h1
+                    id="minutes"
+                    class="fw-bold text-white"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    0
+                  </h1>
+                  <span>Menit</span>
+                </div>
+                <h1
+                  class="fw-bold text-white"
+                  style="font-family: 'Playfair Display', serif"
+                >
+                  :
+                </h1>
+                <div class="text-center">
+                  <h1
+                    id="seconds"
+                    class="fw-bold text-white"
+                    style="font-family: 'Playfair Display', serif"
+                  >
+                    0
+                  </h1>
+                  <span>Detik</span>
+                </div>
               </div>
-          </div>
-      </div>
-  </div>
-  
-    </section>
-
-    <section id="tentang-kami">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row">
-          <div class="col-sm-5">
-            <img src="images/tentang-kami.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-sm">
-            <br>
-            <h1 style="font-family: 'Playfair Display', serif;"> <b> TENTANG KAWIT </b></h1>
-            <br>
-            <h5 style="font-weight: 300;">
-              Kawit hadir untuk memenuhi kebutuhan pakaian muslim untuk anak dan juga wanita. Bukan hanya pakaian biasa kawit memberikan kualitas dan desain terbaik dengan harga yang terjangkau untuk semua kalangan.
-            </h5>
+            </div>
           </div>
         </div>
-      </div>
-      <br><br>
-      <div style="background-color: #F0E9E0;">
+      </section>
+
+      <section id="tentang-kami">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <br><br>
-          <h1 style="font-family: 'Playfair Display', serif;"> Manifestasi Dari Kawit</h1>
-            <br>
-            <h5 style="font-weight: 300;">
-              Bersiap tampil elegan kini jadi lebih baik. Kawit bukan hanya tentang tampil memukau di foto, tetapi tentang busana yang dirancang untuk keseharian wanita dan anak-anak yang sesungguhnya – mulai dari pertemuan formal hingga saat-saat kebersamaan bersama keluarga. <br><br>
-              
-              Di Kawit, kami menciptakan busana yang selalu dapat diandalkan, potongan feminin yang tak lekang oleh waktu, siap menemani setiap momen di kalender Anda, serta semua kejadian di antaranya. Dirancang untuk kebutuhan nyata sehari-hari yang sering terabaikan – seperti setelan anggun yang tetap rapi sepanjang hari, kantong yang fungsional untuk membawa berbagai kebutuhan, atau memilih pakaian berdasarkan kenyamanan tanpa mengorbankan gaya. Pakaian yang dirancang untuk memberi Anda jeda, karena kami tahu hidup Anda tak selalu memberikan kesempatan itu. <br><br>
-              
-              Setiap detail Kawit dibuat penuh cinta, dengan kepedulian yang layak didapatkan oleh setiap wanita.
-            </h5>
-            <br>
-            <h1 style="font-family: 'Playfair Display', serif;"> Ready-to-live, <br>not just ready-to-wear.</h1>
-            <br><br>
+          <div class="row">
+            <div class="col-sm-5">
+              <img src="images/tentang-kami.png" class="img-fluid" alt="" />
+            </div>
+            <div class="col-sm">
+              <br />
+              <h1 style="font-family: 'Playfair Display', serif">
+                <b> TENTANG KAWIT </b>
+              </h1>
+              <br />
+              <h5 style="font-weight: 300">
+                Kawit hadir untuk memenuhi kebutuhan pakaian muslim untuk anak
+                dan juga wanita. Bukan hanya pakaian biasa kawit memberikan
+                kualitas dan desain terbaik dengan harga yang terjangkau untuk
+                semua kalangan.
+              </h5>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+        <br /><br />
+        <div style="background-color: #f0e9e0">
+          <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <br /><br />
+            <h1 style="font-family: 'Playfair Display', serif">
+              Manifestasi Dari Kawit
+            </h1>
+            <br />
+            <h5 style="font-weight: 300">
+              Bersiap tampil elegan kini jadi lebih baik. Kawit bukan hanya
+              tentang tampil memukau di foto, tetapi tentang busana yang
+              dirancang untuk keseharian wanita dan anak-anak yang sesungguhnya
+              – mulai dari pertemuan formal hingga saat-saat kebersamaan bersama
+              keluarga. <br /><br />
 
-    <section>
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <center>
-          <h1 style="font-family: 'Playfair Display', serif;"><b>TOKO RESMI KAWIT</b></h1>
-          <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px;">Beli produk di toko resmi Kawit untuk dapatkan harga terbaik.</h6>
-        </center>
-        <br><br>
-      </div>
-        <img src="images/toko-resmi.png" class="img-fluid" alt="">
-    </section>
+              Di Kawit, kami menciptakan busana yang selalu dapat diandalkan,
+              potongan feminin yang tak lekang oleh waktu, siap menemani setiap
+              momen di kalender Anda, serta semua kejadian di antaranya.
+              Dirancang untuk kebutuhan nyata sehari-hari yang sering terabaikan
+              – seperti setelan anggun yang tetap rapi sepanjang hari, kantong
+              yang fungsional untuk membawa berbagai kebutuhan, atau memilih
+              pakaian berdasarkan kenyamanan tanpa mengorbankan gaya. Pakaian
+              yang dirancang untuk memberi Anda jeda, karena kami tahu hidup
+              Anda tak selalu memberikan kesempatan itu. <br /><br />
 
-    <style>
-      .scroll-container {
-        display: flex;
-        overflow-x: auto;
-        gap: 1rem;
-        padding: 1rem;
-        scroll-behavior: smooth;
-      }
-  
-      .benefit-card {
-        flex: 0 0 auto;
-        width: 300px;
-        background-color: #F0E9E0;
-        border-radius: 5px;
-        padding: 1.5rem;
-      }
-  
-      .benefit-card h5 {
-        font-weight: 600;
-        font-size: 17px;
-        margin-bottom: 1rem;
-      }
-  
-      .benefit-card ul {
-        list-style: none;
-        padding: 0;
-      }
-  
-      .benefit-card li {
-        margin-bottom: 0.5rem;
-        font-weight: 300;
-        font-size: 14px;
-        color: black;
-      }
-  
-      /* .benefit-card li:before {
+              Setiap detail Kawit dibuat penuh cinta, dengan kepedulian yang
+              layak didapatkan oleh setiap wanita.
+            </h5>
+            <br />
+            <h1 style="font-family: 'Playfair Display', serif">
+              Ready-to-live, <br />not just ready-to-wear.
+            </h1>
+            <br /><br />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <center>
+            <h1 style="font-family: 'Playfair Display', serif">
+              <b>TOKO RESMI KAWIT</b>
+            </h1>
+            <h6 style="font-size: 18px; font-weight: 300; letter-spacing: 1px">
+              Beli produk di toko resmi Kawit untuk dapatkan harga terbaik.
+            </h6>
+          </center>
+          <br /><br />
+        </div>
+        <img src="images/toko-resmi.png" class="img-fluid" alt="" />
+      </section>
+
+      <style>
+        .scroll-container {
+          display: flex;
+          overflow-x: auto;
+          gap: 1rem;
+          padding: 1rem;
+          scroll-behavior: smooth;
+        }
+
+        .benefit-card {
+          flex: 0 0 auto;
+          width: 300px;
+          background-color: #f0e9e0;
+          border-radius: 5px;
+          padding: 1.5rem;
+        }
+
+        .benefit-card h5 {
+          font-weight: 600;
+          font-size: 17px;
+          margin-bottom: 1rem;
+        }
+
+        .benefit-card ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        .benefit-card li {
+          margin-bottom: 0.5rem;
+          font-weight: 300;
+          font-size: 14px;
+          color: black;
+        }
+
+        /* .benefit-card li:before {
         content: '✔️';
         margin-right: 0.5rem;
         color: green;
       } */
-  
-      .scroll-buttons {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        margin-top: 1rem;
-      }
-  
-      .scroll-button {
-        padding: 0.5rem 1.5rem;
-        border: none;
-        border-radius: 4px;
-        background-color: #007bff;
-        color: white;
-        cursor: pointer;
-      }
-  
-      .scroll-button:hover {
-        background-color: #0056b3;
-      }
-    </style>
 
-    <section>
-      <div class="container ">
-        <div class="row">
-          <div class="col-sm-3">
-            <h1 class="" style="font-family: 'Playfair Display', serif;"> <b> BERGABUNGLAH DAN DAPATKAN MANFAATNYA! </b></h1>
-            <p style="font-size: 18px; font-weight: 300;">Bergabung menjadi reseller di Kawit, Anda akan mendapatkan berbagai keuntungan. Apa saja keuntungannya?</p>
-          </div>
-          <div class="col-sm">
-            <div id="scroll-container" class="scroll-container">
-              <div class="benefit-card">
-                <h5>HARGA MURAH</h5>
-                <ul>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i><b> Harga Produk Lebih Murah </b> <br> Dapatkan diskon khusus reseller untuk semua produk kami.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Margin Keuntungan Tinggi </b> <br> Harga yang kompetitif bikin kamu mudah menentukan keuntungan besar!</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Produk Berkualitas </b> <br> Kawit menjamin produk dengan kualitas terbaik yang disukai pelanggan.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Tanpa Ribet </b> <br> Kami siap mendukung kamu dengan stok barang melimpah dan pengiriman cepat.</li>
-                </ul>
-              </div>
-              <div class="benefit-card">
-                <h5>PENDAFTARAN GRATIS</h5>
-                <ul>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Pendaftaran GRATIS </b> <br> Nggak perlu modal awal untuk bergabung.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Harga Produk Lebih Murah </b> <br> Dapatkan harga khusus reseller untuk keuntungan maksimal.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Produk Berkualitas </b> <br> Pilihan produk terbaik yang pasti diminati pelanggan.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Bimbingan dan Dukungan </b> <br> Kami siap membantu kamu sukses berjualan.</li>
-                </ul>
-              </div>
-              <div class="benefit-card">
-                <h5>GRUP KOMUNITAS & BIMBINGAN</h5>
-                <ul>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Bimbingan Langsung </b> <br> Dapatkan tips dan strategi dari ahli kami untuk mengembangkan bisnismu.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Komunitas Supportive </b> <br> Belajar, berbagi pengalaman, dan tumbuh bersama reseller lainnya.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Akses Eksklusif </b> <br> Ikuti pelatihan, webinar, dan sesi diskusi khusus untuk reseller Kawit.</li>
-                  <li><i class="bi bi-check-square-fill text-success me-1"></i> <b> Solusi Cepat </b> <br> Jika ada pertanyaan atau kendala, kami siap membantu melalui grup komunitas.</li>
-                </ul>
+        .scroll-buttons {
+          display: flex;
+          justify-content: center;
+          gap: 1rem;
+          margin-top: 1rem;
+        }
+
+        .scroll-button {
+          padding: 0.5rem 1.5rem;
+          border: none;
+          border-radius: 4px;
+          background-color: #007bff;
+          color: white;
+          cursor: pointer;
+        }
+
+        .scroll-button:hover {
+          background-color: #0056b3;
+        }
+      </style>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <h1 class="" style="font-family: 'Playfair Display', serif">
+                <b> BERGABUNGLAH DAN DAPATKAN MANFAATNYA! </b>
+              </h1>
+              <p style="font-size: 18px; font-weight: 300">
+                Bergabung menjadi reseller di Kawit, Anda akan mendapatkan
+                berbagai keuntungan. Apa saja keuntungannya?
+              </p>
+            </div>
+            <div class="col-sm">
+              <div id="scroll-container" class="scroll-container">
+                <div class="benefit-card">
+                  <h5>HARGA MURAH</h5>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i
+                      ><b> Harga Produk Lebih Murah </b> <br />
+                      Dapatkan diskon khusus reseller untuk semua produk kami.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Margin Keuntungan Tinggi </b> <br />
+                      Harga yang kompetitif bikin kamu mudah menentukan
+                      keuntungan besar!
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Produk Berkualitas </b> <br />
+                      Kawit menjamin produk dengan kualitas terbaik yang disukai
+                      pelanggan.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Tanpa Ribet </b> <br />
+                      Kami siap mendukung kamu dengan stok barang melimpah dan
+                      pengiriman cepat.
+                    </li>
+                  </ul>
+                </div>
+                <div class="benefit-card">
+                  <h5>PENDAFTARAN GRATIS</h5>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Pendaftaran GRATIS </b> <br />
+                      Nggak perlu modal awal untuk bergabung.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Harga Produk Lebih Murah </b> <br />
+                      Dapatkan harga khusus reseller untuk keuntungan maksimal.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Produk Berkualitas </b> <br />
+                      Pilihan produk terbaik yang pasti diminati pelanggan.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Bimbingan dan Dukungan </b> <br />
+                      Kami siap membantu kamu sukses berjualan.
+                    </li>
+                  </ul>
+                </div>
+                <div class="benefit-card">
+                  <h5>GRUP KOMUNITAS & BIMBINGAN</h5>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Bimbingan Langsung </b> <br />
+                      Dapatkan tips dan strategi dari ahli kami untuk
+                      mengembangkan bisnismu.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Komunitas Supportive </b> <br />
+                      Belajar, berbagi pengalaman, dan tumbuh bersama reseller
+                      lainnya.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Akses Eksklusif </b> <br />
+                      Ikuti pelatihan, webinar, dan sesi diskusi khusus untuk
+                      reseller Kawit.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-square-fill text-success me-1"></i>
+                      <b> Solusi Cepat </b> <br />
+                      Jika ada pertanyaan atau kendala, kami siap membantu
+                      melalui grup komunitas.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      
-    </section>
+      </section>
 
-    <section>
-      <style>
-        .banner-2 {
+      <section>
+        <style>
+          .banner-2 {
             font-family: Arial, sans-serif;
             height: 600px;
-            background: url('images/banner-2.png') no-repeat center center/cover; /* Replace with actual image */
+            background: url("images/banner-2.png") no-repeat center center/cover; /* Replace with actual image */
             color: white;
             position: relative; /* Needed for pseudo-element positioning */
-        }
-    
-        .banner-2 .container {
+          }
+
+          .banner-2 .container {
             position: relative; /* To make content stack above the overlay */
             z-index: 2;
-        }
-    </style>
-    
-    <div class="banner-2">
-      <div class="container">
-          <br><br><br><br><br><br><br>
-          <center>
-            <div class="row d-flex justify-content-center gap-4 align-items-center">
-              <h1 class="text-white" style="font-family: 'Playfair Display', serif; font-size: 50px;"> <b> Siap Meraih Keuntungan yang Besar? </b></h1>
-              <h5 class="text-white">Ayo tunggu apa lagi, segera bergabung menjadi reseller kami!</h5>
-              <a href="https://wa.me/6282245973596" target="_blank" class="btn-get-started">GABUNG SEKARANG</a>
-            </div>
-          </center>
-      </div>
-  </div>
-  
-    </section>
+          }
+        </style>
 
-    
-
-  </main>
-
-  <footer id="kontak" class="footer text-white" style="background-color: #261D12;">
-
-    <div class="container footer-top" style="background-color: #261D12;">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="/" class="logo d-flex align-items-center">
-            <!-- <span class="sitename">Multi</span> -->
-             <img src="images/kawit-white.png" style="width: 130px;" alt="">
-          </a>
-          <div class="footer-contact">
-            <div>Jl Raya Soreang-Ciwidey</div>
-            <br>
-            <h5 class="text-white"><b>KONTAK</b></h5>
-            <div><i class="bi bi-envelope me-2"></i><span>kawit.fashion@gmail.com</span></div>
-            <div><i class="bi bi-whatsapp me-1"></i> <span>+628123456789</span></div>
+        <div class="banner-2">
+          <div class="container">
+            <br /><br /><br /><br /><br /><br /><br />
+            <center>
+              <div
+                class="row d-flex justify-content-center gap-4 align-items-center"
+              >
+                <h1
+                  class="text-white"
+                  style="
+                    font-family: 'Playfair Display', serif;
+                    font-size: 50px;
+                  "
+                >
+                  <b> Siap Meraih Keuntungan yang Besar? </b>
+                </h1>
+                <h5 class="text-white">
+                  Ayo tunggu apa lagi, segera bergabung menjadi reseller kami!
+                </h5>
+                <a
+                  href="https://wa.me/6282245973596"
+                  target="_blank"
+                  class="btn-get-started"
+                  >GABUNG SEKARANG</a
+                >
+              </div>
+            </center>
           </div>
-          
         </div>
+      </section>
+    </main>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          <!-- <h4>Useful Links</h4>
+    <footer
+      id="kontak"
+      class="footer text-white"
+      style="background-color: #261d12"
+    >
+      <div class="container footer-top" style="background-color: #261d12">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="/" class="logo d-flex align-items-center">
+              <!-- <span class="sitename">Multi</span> -->
+              <img src="images/kawit-white.png" style="width: 130px" alt="" />
+            </a>
+            <div class="footer-contact">
+              <div>Jl Raya Soreang-Ciwidey</div>
+              <br />
+              <h5 class="text-white"><b>KONTAK</b></h5>
+              <div>
+                <i class="bi bi-envelope me-2"></i
+                ><span>kawit.fashion@gmail.com</span>
+              </div>
+              <div>
+                <i class="bi bi-whatsapp me-1"></i> <span>+628123456789</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <!-- <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
@@ -825,157 +1320,217 @@
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul> -->
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links"></div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4 class="text-white">TOKO RESMI KAWIT</h4>
+            <div class="row">
+              <div class="col-2">
+                <div class="card border-0">
+                  <div class="p-1">
+                    <center>
+                      <a
+                        href="https://shopee.co.id/shop/1389123813"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/shopee.png"
+                          class="rounded img-fluid"
+                          alt="Shopee"
+                        />
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card border-0">
+                  <div class="p-1">
+                    <center>
+                      <a
+                        href="https://www.tokopedia.com/kawitofficial"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/tokopedia.png"
+                          class="rounded img-fluid"
+                          style="width: 40px"
+                          alt="Tokopedia"
+                        />
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card border-0">
+                  <div class="p-1">
+                    <center>
+                      <a
+                        href="https://www.tiktok.com/@kawit.official"
+                        target="_blank"
+                      >
+                        <img
+                          src="images/tiktokshop.png"
+                          class="rounded img-fluid"
+                          style="width: 40px"
+                          alt="TikTok"
+                        />
+                      </a>
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card border-0">
+                  <div class="p-1">
+                    <center>
+                      <img
+                        src="images/lazada.png"
+                        class="rounded img-fluid"
+                        style="width: 40px"
+                        alt="Lazada"
+                      />
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-2">
+                <div class="card border-0">
+                  <div class="p-1">
+                    <center>
+                      <img
+                        src="images/zalora.png"
+                        class="rounded img-fluid"
+                        style="width: 40px"
+                        alt="Zalora"
+                      />
+                    </center>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card border-0">
+                  <div class="p-1">
+                    <center>
+                      <img
+                        src="images/lili.png"
+                        class="rounded img-fluid mt-2 mb-2"
+                        style="width: 40px"
+                        alt="LiLi"
+                      />
+                    </center>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+            <br />
+            <h4 class="text-white">SOSIAL MEDIA KAMI</h4>
+            <div class="social-links d-flex">
+              <a
+                href="https://www.facebook.com/profile.php?id=61568375286348"
+                target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/kawit-fashion/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+              <a
+                href="https://www.instagram.com/kawitfashionofficial/"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@kawit.official?lang=id-ID"
+                target="_blank"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+            </div>
+          </div>
         </div>
 
-        <div class="col-lg-2 col-md-3 footer-links">
-          
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4 class="text-white">TOKO RESMI KAWIT</h4>
-          <div class="row">
-            <div class="col-2">
-              <div class="card border-0">
-                <div class="p-1">
-                  <center>
-                    <a href="https://shopee.co.id/shop/1389123813" target="_blank">
-                      <img src="images/shopee.png" class="rounded img-fluid" alt="Shopee">
-                    </a>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="card border-0">
-                <div class="p-1">
-                  <center>
-                <img src="images/tokopedia.png" class="rounded img-fluid" style="width: 40px;" alt="Tokopedia">
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="card border-0">
-                <div class="p-1">
-                  <center>
-                    <a href="https://www.tiktok.com/@kawit.official" target="_blank">
-                      <img src="images/tiktokshop.png" class="rounded img-fluid" style="width: 40px;" alt="TikTok">
-                    </a>
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="card border-0">
-                <div class="p-1">
-                  <center>
-                <img src="images/lazada.png" class="rounded img-fluid" style="width: 40px;" alt="Lazada">
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="card border-0">
-                <div class="p-1">
-                  <center>
-                <img src="images/zalora.png" class="rounded img-fluid" style="width: 40px;" alt="Zalora">
-                  </center>
-                </div>
-              </div>
-            </div>
-            <div class="col-2">
-              <div class="card border-0">
-                <div class="p-1">
-                  <center>
-                <img src="images/lili.png" class="rounded img-fluid mt-2 mb-2" style="width: 40px;" alt="LiLi">
-                  </center>
-                </div>
-              </div>
-            </div>
-        </div>
-        <br>
-        <h4 class="text-white">SOSIAL MEDIA KAMI</h4>
-        <div class="social-links d-flex">
-          <a href="https://www.facebook.com/profile.php?id=61568375286348" target="_blank"><i class="bi bi-facebook"></i></a>
-          <a href="https://www.linkedin.com/company/kawit-fashion/" target="_blank"><i class="bi bi-linkedin"></i></a>
-          <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
-          <a href="https://www.instagram.com/kawitfashionofficial/" target="_blank"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.tiktok.com/@kawit.official?lang=id-ID" target="_blank"><i class="bi bi-tiktok"></i></a>
+        <div class="container copyright text-center mt-4">
+          <p>© 2024 KAWIT, All Rights Reserved.</p>
         </div>
       </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© 2024 KAWIT, All Rights Reserved.</p>
-      </div>
-    </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  </footer>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-  
-  <script>
-    function startCountdown(endDate) {
-        const daysEl = document.getElementById('days');
-        const hoursEl = document.getElementById('hours');
-        const minutesEl = document.getElementById('minutes');
-        const secondsEl = document.getElementById('seconds');
+    <script>
+      function startCountdown(endDate) {
+        const daysEl = document.getElementById("days");
+        const hoursEl = document.getElementById("hours");
+        const minutesEl = document.getElementById("minutes");
+        const secondsEl = document.getElementById("seconds");
 
         function updateCountdown() {
-            const now = new Date().getTime();
-            const distance = endDate - now;
+          const now = new Date().getTime();
+          const distance = endDate - now;
 
-            if (distance < 0) {
-                clearInterval(interval);
-                daysEl.textContent = '0';
-                hoursEl.textContent = '0';
-                minutesEl.textContent = '0';
-                secondsEl.textContent = '0';
-                return;
-            }
+          if (distance < 0) {
+            clearInterval(interval);
+            daysEl.textContent = "0";
+            hoursEl.textContent = "0";
+            minutesEl.textContent = "0";
+            secondsEl.textContent = "0";
+            return;
+          }
 
-            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          const hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          const minutes = Math.floor(
+            (distance % (1000 * 60 * 60)) / (1000 * 60)
+          );
+          const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            daysEl.textContent = days;
-            hoursEl.textContent = hours;
-            minutesEl.textContent = minutes;
-            secondsEl.textContent = seconds;
+          daysEl.textContent = days;
+          hoursEl.textContent = hours;
+          minutesEl.textContent = minutes;
+          secondsEl.textContent = seconds;
         }
 
         const interval = setInterval(updateCountdown, 1000);
         updateCountdown();
-    }
+      }
 
-    // Set the countdown date (e.g., 2 days from now)
-    const countdownDate = new Date().getTime() + (2 * 24 * 60 * 60 * 1000);
-    startCountdown(countdownDate);
-</script>
-
-</body>
-
+      // Set the countdown date (e.g., 2 days from now)
+      const countdownDate = new Date().getTime() + 2 * 24 * 60 * 60 * 1000;
+      startCountdown(countdownDate);
+    </script>
+  </body>
 </html>
